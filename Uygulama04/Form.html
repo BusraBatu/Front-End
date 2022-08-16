@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hemen Üye Ol</title>
+    <meta charset="UTF-8" />
+
+    <meta name="title" content="Hemen Üye Ol" />
+  </head>
+  <body>
+    <h1>Lütfen Formu Eksiksiz Doldurunuz</h1>
+    <hr />
+
+    <form action="">
+      <h3>Hesap Bilgileriniz</h3>
+      <p>
+        Kullanıcı Adı:
+        <input
+          type="text"
+          name="username"
+          placeholder="Kullanıcı adı giriniz"
+          required
+        />
+      </p>
+      <p>
+        Eposta:
+        <input
+          type="text"
+          name="email"
+          placeholder="E-posta giriniz"
+          required
+        />
+      </p>
+      <p>
+        Parola:
+        <input
+          type="text"
+          name="password"
+          placeholder="Parola giriniz"
+          required
+        />
+      </p>
+    </form>
+    <h3>Kişisel Bilgileriniz</h3>
+    <form action="">
+      <p>Ad: <input type="text" name="name" /></p>
+      <p>Soyad: <input type="text" name="lastname" /></p>
+      <p>
+        Şehir
+        <select name="sehir">
+          <option>Seçiniz</option>
+          <option>İstanbul</option>
+          <option>Ankara</option>
+          <option>İzmir</option>
+          <option>Adana</option>
+          <option>Bursa</option>
+        </select>
+      </p>
+      <p>
+        Cinsiyet:
+        <input type="radio" name="cinsiyet" /> Erkek
+        <input type="radio" name="cinsiyet" /> Kadın
+      </p>
+      <p>
+        Hobileriniz:
+        <input type="checkbox" name="Hobiler" /> Sinema
+        <input type="checkbox" name="Hobiler" /> Seyahat
+        <input type="checkbox" name="Hobiler" /> Spor
+        <input type="checkbox" name="Hobiler" /> Kitap Okumak
+      </p>
+      <p><input type="submit" value="Kaydet" /></p>
+    </form>
+  </body>
+</html>
