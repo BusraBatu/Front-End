@@ -9,6 +9,9 @@
 #other-posts{
     width:25%;
     float: left;
+    position:fixed;
+    top:0;
+    right:0;
 }
 .tags li{
     list-style: none;
@@ -21,4 +24,12 @@
 }
 .tags li a {
     text-decoration: none;
+}
+.blog-post{
+    position: relative;
+}
+.date{
+    position: absolute;
+    top:0;
+    right: 50px;
 }
