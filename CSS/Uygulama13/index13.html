@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        font-family: "Nunito", sans-serif;
+      }
+
+      .header {
+        background-image: linear-gradient(
+            to left bottom,
+            rgba(102, 255, 102, 0.7),
+            rgba(230, 255, 230, 0.7)
+          ),
+          url(img/background\ image.jpg);
+        height: 95vh;
+        background-size: cover;
+        background-position: top;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 87%);
+        position: relative;
+      }
+      .heading {
+        text-transform: uppercase;
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+      }
+      .heading-main {
+        font-size: 50px;
+        display:block;
+        letter-spacing: 15px;
+      }
+      .heading-sub {
+        display:block;
+        font-size: 30px;
+        letter-spacing: 5px;
+      }
+      .logo-box{
+        position: absolute;
+        top: 30px;
+        left: 40px;
+      }
+      .logo{
+        height:50px;      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+        <div class="logo-box">
+            <img class="logo" src="img/Pembe zarif bujiteri aksesuar logo tasarımı.png" alt="">
+        </div>
+      <h1 class="heading">
+        <span class="heading-main">Main Title</span>
+        <span class="heading-sub">Sub Title</span>
+      </h1>
+    </header>
+  </body>
+</html>
