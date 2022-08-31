@@ -27,8 +27,12 @@
         <div id="logo-box">
           <a href="/" class="logo text-uppercase">Library</a>
         </div>
-        <div id="nav-links">
+        <div id="nav-links" class="responsive">
           <ul>
+            <li class="nav-item">
+              <a href="#"  class="nav-link text-uppercase nav-icon"><i id="menu" class="fa-solid fa-bars"></i></a>
+            </li>
+            
             <li class="nav-item">
               <a href="#" class="nav-link text-uppercase">Books</a>
             </li>
@@ -182,7 +186,7 @@
               vocabulary, thinking skills, and concentration. It also can affect
               empathy, social perception, and emotional intelligence, the sum of
               which helps people stay on the planet longer.
-            </p>
+            </p><br>
           </div>
           <div class="right">
             <p class="text">
@@ -300,5 +304,15 @@
         </small>
       </div>
     </div>
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script>
+      $('.nav-icon').click(function(){
+        $('#nav-links').toggleClass("responsive");
+        return false;
+      });
+
+
+    </script>
   </body>
 </html>
